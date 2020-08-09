@@ -580,14 +580,13 @@ svg.ui-ux circle {
     background: #fff;
 }
 
-.prot_row {
-    max-width: 85%;
-    margin: 0 auto;
+.my_container .pro_img_div {
+    width: 45%;
+    max-width: 600rem;
+    margin: 0 auto 4rem;
 }
 
-.prot_row .pro_img_div {
-    width: 45%;
-    margin: 0 auto 4rem;
+.pro_content {
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -595,7 +594,7 @@ svg.ui-ux circle {
     -o-transition: 0.5s;
 }
 
-.prot_row .pro_img_div:hover {
+.pro_content:hover {
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -603,7 +602,7 @@ svg.ui-ux circle {
     -o-transform: scale(1.1);
 }
 
-.prot_row .pro_img_div img {
+.pro_img_div img {
     width: 100%;
     height: auto;
 }
